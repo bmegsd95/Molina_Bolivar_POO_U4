@@ -17,6 +17,45 @@ El sistema está desarrollado aplicando:
 - **Manejo de archivos CSV**
 - **Refactorización y código limpio**
 - **Pruebas unitarias con JUnit 5**
+  
+
+---
+## 🔧 Instalación y ejecución del proyecto
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/bmegsd95/Molina_Bolivar_POO_U4.git
+cd Molina_Bolivar_POO_U4
+2. Importar en Eclipse
+
+Abrir Eclipse.
+
+Ir a File → Import…
+
+Seleccionar Existing Projects into Workspace.
+
+En Select root directory, buscar la carpeta clonada Molina_Bolivar_POO_U4.
+
+Marcar el proyecto y presionar Finish.
+
+Requisitos: JDK 17 o superior configurado en Eclipse.
+
+3. Ejecutar la aplicación
+
+En el panel de paquetes, abrir src/poo/app/PruebaAudioVisual.java.
+
+Clic derecho sobre la clase → Run As → Java Application.
+
+Se abrirá el menú del sistema en la consola de Eclipse.
+
+4. Ejecutar las pruebas unitarias
+
+Clic derecho sobre la carpeta test.
+
+Seleccionar Run As → JUnit Test.
+
+Verificar que la barra de JUnit se muestre en verde, indicando que todas las pruebas pasan correctamente.
 
 ---
 
@@ -90,33 +129,9 @@ Para ejecutar:
 
 ---
 
-## 🧪 Pruebas Unitarias (JUnit 5)
 
-Incluye pruebas para:
-- Modelo (PeliculaTest, ActorTest, TemporadaTest, etc.)
-- Repositorios (CsvContenidoRepositoryTest)
-- Controlador (SistemaContenidoControllerTest)
-
-Para ejecutar:
-
-### El menú permite:
-- Crear/listar contenidos
-- Crear/listar actores, temporadas e investigadores
-- Guardar datos y salir
-
----
-
-## 🧪 Pruebas Unitarias (JUnit 5)
-
-Incluye pruebas para:
-- Modelo (PeliculaTest, ActorTest, TemporadaTest, etc.)
-- Repositorios (CsvContenidoRepositoryTest)
-- Controlador (SistemaContenidoControllerTest)
-
-Para ejecutar:
-
----
 
 ## 📎 Autor
 **Molina Bolívar**
+
 
